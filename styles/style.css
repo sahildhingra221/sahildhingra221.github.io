@@ -1,0 +1,665 @@
+/* line 1, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 6, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+body {
+  font-family: Yu Gothic UI;
+}
+
+/* line 10, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 14, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.line-break {
+  display: block;
+}
+
+/* line 19, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+input:active, input:focus {
+  outline: none;
+  border: 0;
+}
+
+/* line 26, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.hover-pushup {
+  transition: 0.1s ease-in;
+}
+
+/* line 30, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.hover-pushup:hover {
+  transform: translateY(-1.5px);
+}
+
+/* line 34, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+/* line 43, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+li {
+  list-style: none;
+}
+
+/* Header */
+/* line 49, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.hero-header {
+  position: absolute;
+  width: 100%;
+}
+
+/* line 52, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.hero-header__wrapper {
+  max-width: 1366px;
+  display: flex;
+  margin: 0 auto;
+  position: relative;
+  padding: 20px 50px 0;
+}
+
+/* Logo */
+/* line 63, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.logo-container {
+  width: 30%;
+}
+
+/* line 67, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.h-logo {
+  height: 60px;
+}
+
+/* line 69, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.h-logo img {
+  height: 100%;
+}
+
+/* Header Navigation */
+/* line 76, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.h-nav {
+  width: 70%;
+}
+
+/* line 80, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.nav-list {
+  float: right;
+}
+
+/* line 82, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.nav-list li {
+  margin: 10px 10px;
+  display: inline-flex;
+  will-change: transform;
+}
+
+/* line 86, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.nav-list li a {
+  color: white;
+  display: block;
+  padding: 10px;
+}
+
+/* line 91, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.nav-list li:hover {
+  color: #F43059;
+  border-bottom: 0.5px solid #F43059;
+}
+
+/* line 96, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.nav-list li:nth-child(1) {
+  border-bottom: 0.5px solid #E50C39;
+}
+
+/* line 98, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.nav-list li:nth-child(1) a {
+  color: #E50C39;
+}
+
+/* Hero Section */
+/* line 106, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.hero-section {
+  background-image: url(../images/bg-fhd-wo.png), linear-gradient(60deg, #373A3B 0%, #587976 20%, #0C1421 30%, #83857A 60%, #78776B 85%, #64655B 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 0 100px;
+  width: 100%;
+}
+
+/* line 112, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.hero-section__container {
+  max-width: 1366px;
+  margin: 0 auto;
+  display: flex;
+}
+
+/* Profile Image */
+/* line 121, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.profile-img {
+  width: 40%;
+}
+
+/* line 123, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.profile-img__wrap {
+  width: 358.76px;
+  height: 362.95px;
+  border: 20px solid #F39C12;
+  border-radius: 50px;
+  overflow: hidden;
+  transform: translateX(15%) rotateZ(-11deg) scale(0.87);
+  transition: 0.4s ease-in;
+  cursor: pointer;
+}
+
+/* line 132, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.profile-img__wrap:hover {
+  transition: 0.15s ease-in;
+  transform: translateX(15%) rotateZ(0) scale(0.87);
+}
+
+/* line 136, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.profile-img__wrap img {
+  width: 110%;
+  margin-left: -5%;
+  transform-origin: 0 100%;
+  transform: scale(1.2) translateX(-16%) translateY(-3%) rotateZ(11deg);
+  transition: 0.4s ease-in;
+}
+
+/* line 142, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.profile-img__wrap img:hover {
+  transition: 0.15s ease-in;
+  transform: scale(1.2) translateX(-10%) translateY(6%) rotateZ(0);
+}
+
+/* Intro */
+/* line 152, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.h-intro {
+  width: 60%;
+  color: white;
+}
+
+/* line 155, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.h-intro__wrap {
+  padding: 0 100px 0;
+}
+
+/* line 161, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.intro__title {
+  font-size: 61px;
+  padding: 30px 0 40px;
+}
+
+/* line 165, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.intro__summary {
+  font-size: 47px;
+  font-weight: 300;
+}
+
+/* About Section */
+/* line 174, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.about__wrapper {
+  max-width: 1366px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0 65px;
+}
+
+/* line 180, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.about__title {
+  color: #F43059;
+  font-size: 50px;
+}
+
+/* line 184, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.about__summary {
+  color: #333333;
+  font-size: 25px;
+  font-weight: lighter;
+  word-spacing: 3px;
+  line-height: 37px;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 35px 0 50px;
+}
+
+/* line 194, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.about__links {
+  will-change: transform;
+}
+
+/* line 196, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.about__links p {
+  font-weight: lighter;
+}
+
+/* line 198, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.about__links p span {
+  margin: 0 45px;
+  font-size: 25px;
+  color: 3333;
+}
+
+/* line 203, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.about__links p a {
+  font-size: 32px;
+  border: 1px solid #F43059;
+  display: inline-flex;
+}
+
+/* line 209, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.about__links p .alink__primary {
+  color: #F43059;
+  will-change: transform;
+  position: relative;
+}
+
+/* line 214, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.about__links p .alink__secondary {
+  color: white;
+  background: #F43059;
+  will-change: transform;
+  position: relative;
+}
+
+/* line 219, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.about__links p .alink__secondary:hover {
+  background: #E50C39;
+}
+
+/* line 224, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.about__links p .has-padding {
+  padding: 10px 50px 15px;
+}
+
+/* Trusted Section */
+/* line 233, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.trusted {
+  background: #F43059;
+}
+
+/* line 235, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.trusted__wrapper {
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 40px 0 70px;
+  text-align: center;
+}
+
+/* line 241, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.trusted__title {
+  font-size: 25px;
+  font-weight: lighter;
+  color: white;
+}
+
+/* line 246, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.trusted__clients {
+  display: inline-flex;
+  padding-top: 30px;
+}
+
+/* line 250, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.trusted .tc-logo {
+  height: 120px;
+  opacity: 0.9;
+  transition: 0.1s ease-in;
+}
+
+/* line 254, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.trusted .tc-logo:hover {
+  opacity: 1;
+}
+
+/* line 257, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.trusted .tc-logo img {
+  height: 100%;
+}
+
+/* line 261, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.trusted .has-margin {
+  margin: 0 60px;
+}
+
+/* Reviews section */
+/* line 268, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.reviews {
+  background: #F2F2F2;
+  font-size: 25px;
+}
+
+/* line 271, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.reviews__wrapper {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+/* line 276, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.reviews__first {
+  color: #333;
+  line-height: 35px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+/* line 281, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.reviews__first:after, .reviews__first:before {
+  content: '"';
+  font-family: MS Gothic;
+}
+
+/* line 287, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.reviews__name {
+  text-align: center;
+  padding-top: 10px;
+  color: #F43059;
+  font-size: 28px;
+}
+
+/* line 292, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.reviews__name span {
+  color: #540A19;
+}
+
+/* Projects Section */
+/* line 300, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.projects-section {
+  background: #F9F9F9;
+  padding: 50px 0 30px;
+}
+
+/* line 303, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.projects-section__wrapper {
+  max-width: 1366px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* line 308, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.projects-section__title {
+  color: #F43059;
+  font-size: 70px;
+  text-align: center;
+}
+
+/* line 314, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.projects-section__btn a {
+  background: #F43059;
+  color: white;
+  font-weight: lighter;
+  font-size: 49px;
+  padding: 15px 30px 22px;
+  transition: 0.05s ease-in;
+  display: inline-flex;
+}
+
+/* line 322, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.projects-section__btn a:hover {
+  background: #E50C39;
+}
+
+/* line 325, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.projects-section__btn a img {
+  height: 15.8px;
+  margin: 30px 0 0 40px;
+}
+
+/* line 333, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.projects-container {
+  display: inline-flex;
+  padding: 50px 0;
+}
+
+/* line 338, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.project-case {
+  text-align: left;
+}
+
+/* line 340, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.project-case a {
+  color: #E50C39;
+  transition: 0.05s ease-in;
+}
+
+/* line 343, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.project-case a:hover {
+  color: #FF3400;
+}
+
+/* line 346, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.project-case a span {
+  display: block;
+  padding: 15px 5px;
+  font-size: 28px;
+}
+
+/* line 354, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.case-has-margin {
+  margin: 0 35px;
+}
+
+/* line 358, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.pc {
+  height: 400px;
+  width: 342px;
+  background-size: cover;
+  transition: 0.4s;
+}
+
+/* line 365, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.pc:hover {
+  background-position: bottom;
+}
+
+/* line 369, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.case-first {
+  background-image: url(../images/p2.png);
+}
+
+/* line 371, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.case-first:hover {
+  transition: 0.7s ease-in;
+}
+
+/* line 376, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.case-second {
+  background-image: url(../images/p5.png);
+}
+
+/* line 378, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.case-second:hover {
+  transition: 1s ease-in;
+}
+
+/* line 383, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.case-third {
+  background-image: url(../images/p8.png);
+}
+
+/* line 385, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.case-third:hover {
+  transition: 1.5s ease-in;
+}
+
+/* Blog pinned and find links */
+/* line 392, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.blognlinks {
+  width: 100%;
+}
+
+/* line 394, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.blognlinks__wrapper {
+  max-width: 1366px;
+  display: flex;
+  margin: 0 auto;
+}
+
+/* line 399, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.blognlinks .blog-pinned {
+  width: 75%;
+  color: #F43059;
+}
+
+/* line 402, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.blognlinks .blog-pinned__wrapper {
+  max-width: 150px;
+  margin: 0 auto;
+  font-size: 50px;
+  text-align: center;
+  padding: 12% 0 0;
+}
+
+/* line 410, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.blognlinks .find-links {
+  width: 25%;
+  padding: 25px 0;
+}
+
+/* line 413, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.blognlinks .find-links__title {
+  font-size: 28px;
+  text-align: center;
+}
+
+/* line 417, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.blognlinks .find-links__container {
+  background: #FBFBFB;
+  padding: 20px 0;
+  color: #F43059;
+}
+
+/* line 421, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.blognlinks .find-links__container ul {
+  margin-top: 20px;
+}
+
+/* line 424, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.blognlinks .find-links__container ul li a {
+  color: #F43059;
+  display: inline-block;
+  font-size: 24px;
+  font-weight: lighter;
+  width: auto;
+  padding: 5px 10px;
+}
+
+/* line 431, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.blognlinks .find-links__container ul li a img {
+  width: 30px;
+  float: left;
+  margin: 3px 5px 3px 10px;
+  opacity: 0.9;
+}
+
+/* line 437, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.blognlinks .find-links__container ul li a:hover {
+  color: #E50C39;
+}
+
+/* line 440, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.blognlinks .find-links__container ul li a:hover > img {
+  opacity: 1;
+}
+
+/* Newsletter Section */
+/* line 452, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.newsletter {
+  background: #FBFBFB;
+}
+
+/* line 454, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.newsletter__wrapper {
+  max-width: 1366px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px 0 75px;
+}
+
+/* line 460, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.newsletter__title {
+  color: #F43059;
+  font-size: 45px;
+}
+
+/* line 464, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.newsletter__info {
+  color: #F43059;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+/* line 469, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.newsletter__email {
+  color: #F43059;
+  font-weight: lighter;
+  margin-top: 40px;
+}
+
+/* line 474, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.newsletter__get-mailid {
+  margin-top: 10px;
+}
+
+/* line 476, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.newsletter__get-mailid .mail-form {
+  display: inline-flex;
+}
+
+/* line 479, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.newsletter__get-mailid input {
+  border-radius: 6px;
+}
+
+/* line 482, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.newsletter__get-mailid input:nth-child(1) {
+  border: 1px solid #999;
+  color: #999;
+  text-align: center;
+  padding: 18px 75px;
+  font-size: 20px;
+}
+
+/* line 488, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.newsletter__get-mailid input:nth-child(1):active, .newsletter__get-mailid input:nth-child(1):focus {
+  border-color: #E50C39;
+  color: #E50C39;
+}
+
+/* line 494, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.newsletter__get-mailid input:nth-child(2) {
+  border: 1px solid #E50C39;
+  color: white;
+  text-align: center;
+  padding: 8px 40px;
+  font-size: 38px;
+  background: #F43059;
+  transition: 0.1s ease-in;
+  cursor: pointer;
+  margin-left: 12px;
+}
+
+/* line 504, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.newsletter__get-mailid input:nth-child(2):hover {
+  background: #E50C39;
+}
+
+/* Footer */
+/* line 513, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
+.hero-footer {
+  background-color: #333333;
+  text-align: center;
+  font-size: 16px;
+  font-weight: lighter;
+  padding: 5px 0 7px;
+  color: #F9F9F9;
+}
+
+/*# sourceMappingURL=../styles/style.map */
