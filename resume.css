@@ -1,13 +1,44 @@
 #document {
     margin: 0 auto;
-    zoom:2;
+    zoom: 2;
 }
-#download-resume-link{
+
+#download-resume-link {
     position: absolute;
     right: 0;
-    zoom:0.7;
+    top: 20px;
+    zoom: 0.7;
     z-index: 100;
 }
+
+#download-resume-link a {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    color: #1950d2;
+    border-left-width: 1px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-color: #002aff;
+    border-radius: 6px;
+    border-style: solid;
+    cursor: pointer;
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+
+#download-resume-link a:hover {
+    color: white !important;
+    background:#1950d2;
+}
+
 html,
 body,
 div,
@@ -107,11 +138,11 @@ body {
     padding-left: 0px
 }
 
-#document.skn-mlf6 ul li a{
+#document.skn-mlf6 ul li a {
     text-decoration: none;
 }
 
-#document.skn-mlf6 ul li a:hover{
+#document.skn-mlf6 ul li a:hover {
     text-decoration: underline;
 }
 
