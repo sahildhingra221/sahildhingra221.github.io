@@ -129,8 +129,9 @@ li {
   background-image: url(../images/bg-fhd-wo.png), linear-gradient(60deg, #373A3B 0%, #587976 20%, #0C1421 30%, #83857A 60%, #78776B 85%, #64655B 100%);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 200px 0 100px;
+  #padding: 200px 0 100px;
   width: 100%;
+    height: 768px;
 }
 
 /* line 112, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
@@ -138,12 +139,14 @@ li {
   max-width: 1366px;
   margin: 0 auto;
   display: flex;
+  padding: 180px 0 100px;
 }
 
 /* Profile Image */
 /* line 121, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
 .profile-img {
   width: 40%;
+    padding-top: 20px;
 }
 
 /* line 123, C:/Users/sahil/Desktop/SahilDhingra/sass/style.scss */
