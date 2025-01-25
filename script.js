@@ -1,7 +1,7 @@
 // Redirect to sahildhingra.in
-if (window.location.hostname !== "sahildhingra.in") {
-  window.location.href = "https://sahildhingra.in";
-}
+// if (window.location.hostname !== "sahildhingra.in") {
+//   window.location.href = "https://sahildhingra.in";
+// }
 
 // Header Sticky
 let lastScrollPos = 0;
