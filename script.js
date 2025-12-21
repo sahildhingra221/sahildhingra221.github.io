@@ -1,4 +1,4 @@
-// Redirect to sahildhingra.in
+// Redirect to sahildhingra.com
 if (window.location.hostname !== "sahildhingra.com") {
   window.location.href = "https://sahildhingra.com";
 }
